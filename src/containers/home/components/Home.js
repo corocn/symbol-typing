@@ -4,7 +4,7 @@ import Hello from '../../../components/Hello'
 
 export default function Home () {
   return <div>
-    Home
+    Typing
     <Hello/>
   </div>
 }
