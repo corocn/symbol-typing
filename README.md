@@ -3,8 +3,8 @@
 
 Learn to Typing Symbols
 
-under development...
 
+USキーボードの記号に慣れるために作った
 
 ## Development Info
 base project from https://github.com/mizchi/client-proj-skeleton
