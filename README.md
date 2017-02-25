@@ -1,11 +1,13 @@
 
 # Symbol Typing
 
-Learn to Type!
+Learn to Typing Symbols
+
+under development...
 
 
 ## Development Info
-Boilerplate: https://github.com/mizchi/client-proj-skeleton
+base project from https://github.com/mizchi/client-proj-skeleton
 
 ## License
 
