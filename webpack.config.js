@@ -67,9 +67,9 @@ module.exports = {
       {
         test: /\.css$/,
         loaders: [
-          'style-loader',
-          'css-loader?modules&importLoaders=1',
-          'postcss-loader?sourceMap=inline'
+            'style-loader',
+            'css-loader?modules&importLoaders=1',
+            'postcss-loader?sourceMap=inline',
         ]
       }
     ]

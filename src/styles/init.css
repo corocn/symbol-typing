@@ -3,4 +3,7 @@
 
 body {
   background-color: var(--myColor);
+  height: 100%;
 }
+
+

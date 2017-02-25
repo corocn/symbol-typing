@@ -1,5 +1,35 @@
-.Hello {
-  & .title {
-    color: #00f;
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Typing {
+  & .text {
+    color: black;
+    font-size: 6.0rem;
+    margin-top: 30%;
+
+    & .each_string {
+
+    }
+
+
+    & .before_type {
+      color: black;
+    }
+
+    & .target_type {
+      color: darkred;
+    }
+
+    & .after_type {
+      color: rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  & input {
+    opacity : 0;
   }
 }
+
