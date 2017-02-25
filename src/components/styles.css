@@ -5,13 +5,16 @@
 }
 
 .Typing {
+  width: 60%;
+
   & .text {
     color: black;
-    font-size: 6.0rem;
-    margin-top: 30%;
+    font-size: 4.0rem;
+    margin-top: 20px;
+    word-wrap: break-word;
 
     & .each_string {
-
+      margin: 10px;
     }
 
 
