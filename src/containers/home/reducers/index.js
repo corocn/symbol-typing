@@ -6,6 +6,16 @@ let audio = new Audio("data:audio/wav;base64,UklGRrguAABXQVZFZm10IBAAAAABAAEARKw
 const symbol_set = [
     '`',
     '~',
+    '!',
+    '@',
+    '#',
+    '$',
+    '%',
+    '^',
+    '&',
+    '*',
+    '(',
+    ')',
     '-',
     '_',
     '=',
@@ -27,7 +37,6 @@ const symbol_set = [
     '|',
     '\\'
 ]
-
 
 export type Action =
     {
@@ -63,7 +72,6 @@ const initialState: State = {
     finished : false,
     count : 0
 }
-
 export default (state: State = initialState, action: Action): State => {
     switch (action.type) {
         case 'INPUT':
@@ -97,7 +105,6 @@ export default (state: State = initialState, action: Action): State => {
             return state
     }
 }
-
 
 function generate(n) {
     let ret = [];
